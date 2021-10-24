@@ -21,7 +21,7 @@ def run_query(query):
         return cur.fetchall()
 
 
-rows = run_query("SELECT * FROM dimcity;")
+rows = run_query("SELECT * FROM US_Brands;")
 
 # Print results:
 for row in rows:
