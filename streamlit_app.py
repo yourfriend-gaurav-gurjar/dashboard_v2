@@ -21,7 +21,7 @@ def run_query(query):
         return cur.fetchall()
 
 
-rows = run_query("SELECT * FROM US_Brands;")
+rows = run_query("SELECT * FROM ok_registered_data;")
 
 # Print results:
 for row in rows:
