@@ -25,5 +25,5 @@ rows = run_query("SELECT * FROM ok_registered_data;")
 
 # Print results:
 for row in rows:
-    st.write(f"{row[0]} has a :{row[1]}:")
+    st.write(f"{row[0]} has been registered on  :{row[1]}:")
 
